@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Jawa Barat">
+        <menu>
+            <item
+                android:id="@+id/nav_tarian"
+                android:title="Tarian Daerah" />
+            <item
+                android:id="@+id/nav_makanan"
+                android:title="Makanan Daerah" />
+            <item
+                android:id="@+id/nav_lagu"
+                android:title="Lagu Daerah" />
+            <item
+                android:id="@+id/nav_pakaian"
+                android:title="Pakaian Daerah" />
+        </menu>
+    </item>
+
+    <item android:title="Sumatera">
+        <menu>
+            <item
+                android:id="@+id/nav_tarian_sumatera"
+                android:title="Tarian Daerah" />
+            <item
+                android:id="@+id/nav_makanan_sumatera"
+                android:title="Makanan Daerah" />
+            <item
+                android:id="@+id/nav_lagu_sumatera"
+                android:title="Lagu Daerah" />
+            <item
+                android:id="@+id/nav_pakaian_sumatera"
+                android:title="Pakaian Daerah" />
+        </menu>
+    </item>
+
+    <item android:title="Kalimantan">
+        <menu>
+            <item
+                android:id="@+id/nav_tarian_kalimantan"
+                android:title="Tarian Daerah" />
+            <item
+                android:id="@+id/nav_makanan_kalimantan"
+                android:title="Makanan Daerah" />
+            <item
+                android:id="@+id/nav_lagu_kalimantan"
+                android:title="Lagu Daerah" />
+            <item
+                android:id="@+id/nav_pakaian_kalimantan"
+                android:title="Pakaian Daerah" />
+        </menu>
+    </item>
+
+    <item android:title="Sulawesi">
+        <menu>
+            <item
+                android:id="@+id/nav_tarian_sulawesi"
+                android:title="Tarian Daerah" />
+            <item
+                android:id="@+id/nav_makanan_sulawesi"
+                android:title="Makanan Daerah" />
+            <item
+                android:id="@+id/nav_lagu_sulawesi"
+                android:title="Lagu Daerah" />
+            <item
+                android:id="@+id/nav_pakaian_sulawesi"
+                android:title="Pakaian Daerah" />
+        </menu>
+    </item>
+
+    <item android:title="Papua">
+        <menu>
+            <item
+                android:id="@+id/nav_tarian_papua"
+                android:title="Tarian Daerah" />
+            <item
+                android:id="@+id/nav_makanan_papua"
+                android:title="Makanan Daerah" />
+            <item
+                android:id="@+id/nav_lagu_papua"
+                android:title="Lagu Daerah" />
+            <item
+                android:id="@+id/nav_pakaian_papua"
+                android:title="Pakaian Daerah" />
+        </menu>
+    </item>
+
+
+</menu>

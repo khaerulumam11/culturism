@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dlbelajar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.BelajarFragment">
+
+        <!--<GridView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:id="@+id/gvprovinsi"-->
+        <!--android:numColumns="2"></GridView>-->
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginLeft="0dp"
+                    android:id="@+id/jawa"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/jawabarat"/>
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/kalimantan"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/kalimantan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginLeft="0dp"
+                    android:id="@+id/papua"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/papua"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+        </ScrollView>
+
+</FrameLayout>

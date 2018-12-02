@@ -3,8 +3,11 @@
     package="com.example.khaerulumam.culturism">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:name=".util.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,6 +17,13 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBFU1qaMinYNQqxrLifga4bVtlHa_2R5ag" />
+
+        <!-- <meta-data -->
+        <!-- android:name="io.fabric.ApiKey" -->
+        <!-- android:value="CCuMhlnY8CrbnFwd6M5UgXZxW" /> -->
 
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -30,18 +40,75 @@
         <!-- </intent-filter> -->
         <!-- </activity> -->
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="redirect"
+                    android:scheme="sociallogin" />
+            </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
         <activity
-            android:name=".SplashScreen"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".Main2Activity"></activity>
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".YoutubePlay" />
+        <activity android:name=".RegistrasiActivity" />
+        <activity
+            android:name=".ListBudaya"
+            android:label="List Budaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananDaerah"
+            android:label="Makanan Daerah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianDaerah"
+            android:label="Tarian Daerah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LaguDaerah"
+            android:label="Lagu Daerah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PakaianDaerah"
+            android:label="Lagu Daerah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DeskripsiMakanan"
+            android:label="Deskripsi Makanan" />
+        <activity
+            android:name=".DeskripsiPakaian"
+            android:label="Deskripsi Pakaian" />
+        <activity
+            android:name=".DeskripsiTarian"
+            android:label="Deskpripsi Tarian" />
+        <activity
+            android:name=".DeskripsiLagu"
+            android:label="Deskripsi Lagu" />
+        <activity
+            android:name=".Pemesanan.TempatPemesanan"
+            android:label="List Tempat Pemesanan" />
+        <activity
+            android:name=".PilihKota"
+            android:label="Pilih Kota" />
+        <activity android:name=".Pemesanan.DeskripsiTempat" />
+        <activity android:name=".Pemesanan.PemesananTempat" />
+        <activity android:name=".Pemesanan.DetailPemesanan"></activity>
     </application>
 
 </manifest>

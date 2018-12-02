@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sumatera"
+            android:icon="@drawable/city"
+            android:title="Sumatera" />
+        <item
+            android:id="@+id/jawa"
+            android:icon="@drawable/city"
+            android:title="Jawa" />
+        <item
+            android:id="@+id/kalimantan"
+            android:icon="@drawable/city"
+            android:title="Kalimantan" />
+        <item
+            android:id="@+id/sulawesi"
+            android:icon="@drawable/city"
+            android:title="Sulawesi" />
+        <item
+            android:id="@+id/papua"
+            android:icon="@drawable/city"
+            android:title="Papua" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

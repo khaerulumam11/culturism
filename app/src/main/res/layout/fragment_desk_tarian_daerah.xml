@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DeskMakananDaerah">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--<Button-->
+
+                <!--android:text="Play"-->
+
+                <!--android:layout_width="match_parent"-->
+
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:id="@+id/btnPlay"-->
+
+                <!--android:layout_marginTop="80dp"-->
+
+                <!--/>-->
+
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_player"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+
+            <TextView
+        android:id="@+id/namatarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peyeum"
+        android:textStyle="bold"
+        android:textColor="#f99e49"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/asaltarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peyeum"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/deskripsitarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peyeum"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
